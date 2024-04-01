@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MaterialDesign" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MaterialDesign" parent="Base.Theme.MaterialDesign" />
+
+    <style name="OwnTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">#B71C1C</item> <!-- toolbar bar -->
+        <item name="colorPrimaryDark">#4A148C</item> <!-- status bar  -->
+        <item name="android:textColorPrimary">#006064</item> <!-- title text color  -->
+        <item name="android:navigationBarColor">#F57F17</item> <!-- navigation bar  -->
+        <item name="android:windowBackground">#827717</item> <!-- windowBackground bar  -->
+    </style>
+
+    <style name="main_toolbar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#0059FF</item> <!-- toolbar title text (low priority)  -->
+        <item name="titleTextColor">#fff</item> <!-- toolbar title text (high priority)  -->
+        <item name="android:textColorSecondary">#FFA200</item> <!-- toolbar sub text (low priority)/menu 3 dot  -->
+        <item name="subtitle">Hello</item>
+        <item name="subtitleTextColor">#48FF00</item> <!-- toolbar sub text (high priority)  -->
+        <item name="prefixText">Prefix</item>
+        <item name="suffixText">Suffix</item>
+    </style>
+
+    <style name="main_menu" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="android:colorBackground">#A000FF</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+</resources>
